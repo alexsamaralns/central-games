@@ -10,7 +10,7 @@ const Home = () => {
 
   return (
     <div className="w-full md:h-screen min-h-screen bg-gray-900 flex justify-center items-center flex-col screen-mobile">
-      <div className="md:top-20 -mt-60 h-screen md:-mb-16 flex justify-center items-center flex-col gap-y-14">
+      <div className="-mt-60 h-screen md:-mb-60 flex justify-center items-center flex-col gap-y-14">
         <div className="flex justify-center items-center relative">
           <img className="object-cover px-8" src="/assets/images/welcome.png" alt="welcome" />
         </div>
