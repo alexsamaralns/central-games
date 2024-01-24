@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Pixelify Sans', 'sans-serif'],
+        sans: ['VT323', 'monospace'],
       },
     },
   },
