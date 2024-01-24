@@ -21,6 +21,7 @@ const MARK_PATH = {
   p2: '/assets/images/tictactoe/tictactoe_o.png',
   p1_wins: '/assets/images/tictactoe/p1_wins.png',
   p2_wins: '/assets/images/tictactoe/p2_wins.png',
+  draw: '/assets/images/tictactoe/draw.png',
 }
 
 const TicTacToe = () => {
@@ -384,7 +385,7 @@ const TicTacToe = () => {
               <>
                 <img
                   className="scale-50"
-                  src={winner === 'p1' ? MARK_PATH.p1_wins : MARK_PATH.p2_wins}
+                  src={winner === 'p1' ? MARK_PATH.p1_wins : winner === 'p2' ? MARK_PATH.p2_wins : MARK_PATH.draw}
                   alt={`${winner} wins!`}
                 />
                 <button type="button" onClick={() => handleReset('next')}>

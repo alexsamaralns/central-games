@@ -217,7 +217,7 @@ const RockPaperScissors = () => {
             </button>
             <button
               className={
-                playing ? 'w-28 md:w-1/6 py-3 text-black bg-gray-300 font-semibold md:px-5 md:py-3 mb-12 rounded-md'
+                playing ? 'w-28 md:w-1/6 py-3 text-black bg-gray-300 font-semibold md:px-5 md:py-3 -mb-[2px] rounded-md'
                   : 'w-28 md:w-1/6 -mb-2 py-3 text-black bg-green-300 font-semibold md:px-5 md:py-3 rounded-md hover:bg-green-600 duration-300'
               }
               type="button"
