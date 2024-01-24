@@ -142,7 +142,7 @@ const RockPaperScissors = () => {
         <img className="paper-title fadeIn animate w-52 h-11 object-cover px-8" src="/assets/images/rockpaperscissors/paper.png" alt="paper_title" />
         <img className="scissors-title fadeIn animate w-64 h-11 object-cover px-8" src="/assets/images/rockpaperscissors/scissors.png" alt="scissors_title" />
       </div>
-      <div className="w-11/12 h-auto mt-52 border absolute bg-blue-200 flex justify-between items-center flex-col rounded-lg outline-none">
+      <div className="w-11/12 h-auto mt-52 border absolute bg-indigo-500 flex justify-between items-center flex-col rounded-lg outline-none">
         <div className="w-full mb-5 flex justify-end items-center flex-row mt-3 mr-5">
           <span className="text-xl font-semibold mr-4">TIME</span>
           <div ref={timeCounterRef} className="w-[169px] h-10 bg-black flex justify-end items-center flex-row px-1">
