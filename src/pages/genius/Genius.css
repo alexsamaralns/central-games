@@ -1,0 +1,95 @@
+.change-color {
+  background-color: red;
+  padding: 15px;
+  border-radius: 10px;
+  animation: change-color-anim 1s linear infinite;
+}
+
+@keyframes change-color-anim {
+	0%{
+		background-color: red;
+	}
+
+	25%{
+		background-color: yellow;
+	}
+
+  50%{
+		background-color: blue;
+	}
+
+  100%{
+		background-color: green;
+	}
+}
+
+.btn-green-off {
+	border: 4px solid green;
+}
+
+.btn-red-off {
+	border: 4px solid red;
+}
+
+.btn-yellow-off {
+	border: 4px solid yellow;
+}
+
+.btn-blue-off {
+	border: 4px solid blue;
+}
+
+.btn-green-on {
+	background-color: green!important;
+}
+
+.btn-red-on {
+	background-color: red!important;
+}
+
+.btn-yellow-on {
+	background-color: yellow!important;
+}
+
+.btn-blue-on {
+	background-color: blue!important;
+}
+
+.enabled-buttons {
+	cursor: pointer!important;
+}
+
+.disabled-buttons {
+	cursor: default!important;
+}
+
+.hidden-dialog {
+	visibility: hidden!important;
+}
+
+.animation-dialog {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

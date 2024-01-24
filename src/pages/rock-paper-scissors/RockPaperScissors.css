@@ -1,0 +1,136 @@
+.rock-title {
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  animation-delay: .2s;
+}
+
+.paper-title {
+  -webkit-animation-delay: .6s;
+  -moz-animation-delay: .6s;
+  animation-delay: .6s;
+}
+
+.scissors-title {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animate {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.balloon-player {
+  min-width: 180px;
+  max-width: 180px;
+}
+
+.balloon-computer {
+  min-width: 180px;
+  max-width: 180px;
+  transform: scaleX(-1);
+}
+
+.hand-player {
+  position: absolute;
+  width: 56px;
+  top: 90px;
+  left: 103px;
+}
+
+.back-arrow {
+  position: absolute;
+  width: 32px;
+  top: 118px;
+  left: 60px;
+  cursor: pointer;
+}
+
+.next-arrow {
+  position: absolute;
+  width: 32px;
+  top: 118px;
+  left: 165px;
+  cursor: pointer;
+}
+
+.hand-computer {
+  position: absolute;
+  width: 56px;
+  top: 90px;
+  right: 103px;
+}
+
+@media (max-width: 769px) {
+  .balloon-player {
+    min-width: 140px;
+    max-width: 140px;
+  }
+  
+  .balloon-computer {
+    min-width: 140px;
+    max-width: 140px;
+  }
+
+  .hand-player {
+    position: absolute;
+    min-width: 3rem;
+    max-width: 3rem;
+    top: 85px;
+    left: 67px;
+  }
+  
+  .back-arrow {
+    position: absolute;
+    min-width: 20px;
+    max-width: 20px;
+    top: 110px;
+    left: 35px;
+    cursor: pointer;
+  }
+  
+  .next-arrow {
+    position: absolute;
+    min-width: 20px;
+    max-width: 20px;
+    top: 110px;
+    left: 125px;
+    cursor: pointer;
+  }
+
+  .hand-computer {
+    position: absolute;
+    min-width: 3rem;
+    max-width: 3rem;
+    top: 85px;
+    right: 65px;
+  }
+}

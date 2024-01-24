@@ -1,0 +1,15 @@
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: .2; }
+  100% { opacity: 1; }
+}
+
+.blinking {
+  animation: blink .5s infinite; /* Adjust the duration as needed */
+}
+
+@media (max-width: 786px) {
+  .screen-mobile {
+    height: calc(100% + 450px)!important;
+  }
+}
